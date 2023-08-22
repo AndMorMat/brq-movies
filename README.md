@@ -40,6 +40,7 @@ Há diversas melhorias que podem ser implementadas para aprimorar este projeto, 
 
 - **Sistema de Login Real:** Atualmente, o projeto utiliza dados mockados para simular o processo de login. Implementar um sistema de login real, possivelmente integrado com uma API de autenticação.
 
+
 ## Como Iniciar
 
 Para executar este projeto localmente, siga estas etapas:
@@ -53,6 +54,8 @@ Para executar este projeto localmente, siga estas etapas:
 4. Utilize `npm start` para iniciar o aplicativo.
 
 Fique à vontade para explorar o código e os componentes, e não hesite em fornecer feedback ou sugestões de melhorias.
+
+[Video do projeto](https://drive.google.com/file/d/1cPIdgJ3cjaMISyUUVTGE4fLcYVCuFp-D/view?usp=sharing)
 
 ---
 
