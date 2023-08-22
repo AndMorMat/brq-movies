@@ -46,8 +46,9 @@ export const Movies = ({ movies, loading }: IMoviesProps): JSX.Element => {
   }
 
   return (
-    <View onLayout={onLayoutEvent}>
+    <View onLayout={onLayoutEvent} >
       <FlatList
+        style={styles.listContainer}
         numColumns={2}
         data={movies}
         renderItem={({ item }) => <Movie movie={item} size={imageSize} />}

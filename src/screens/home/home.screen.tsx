@@ -25,7 +25,6 @@ export const HomeScreen = (): JSX.Element => {
       <View>
         <Header />
         <Tabs />
-        <Text onPress={() => navigation.navigate('Login')}>Go to login screen</Text>
         <Movies movies={results} loading={loading} />
       </View>
     </SafeAreaView>

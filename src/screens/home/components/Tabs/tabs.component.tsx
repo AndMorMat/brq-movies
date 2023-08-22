@@ -33,7 +33,7 @@ export const Tabs = (): JSX.Element => {
   }
 
   return (
-    <View style={styles.tabsContainer} onLayout={onLayoutEvent}>
+    <View onLayout={onLayoutEvent}>
       <View style={styles.tabs}>
         <Tab onPress={() => onTabPress(0)} text="Todos os Filmes" active={tab === 0} />
         <Tab onPress={() => onTabPress(1)} text="Filmes Favoritos" active={tab === 1} />

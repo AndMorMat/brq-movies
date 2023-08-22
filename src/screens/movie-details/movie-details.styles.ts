@@ -7,7 +7,7 @@ export const styles = StyleSheet.create({
     marginBottom: 0
   },
   detailsContainer: {
-    paddingHorizontal: 10
+    paddingHorizontal: 20
   },
   title: {
     marginTop: 20,

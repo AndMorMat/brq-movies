@@ -3,9 +3,9 @@ import { StyleSheet } from 'react-native'
 export const styles = StyleSheet.create({
   headerContainer: {
     paddingHorizontal: 20,
-    paddingTop: 30,
+    paddingTop: 40,
     flexDirection: 'row',
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
   },
   title: {
     fontSize: 22,
