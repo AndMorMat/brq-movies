@@ -55,7 +55,7 @@ Para executar este projeto localmente, siga estas etapas:
 
 Fique à vontade para explorar o código e os componentes, e não hesite em fornecer feedback ou sugestões de melhorias.
 
-[Video do projeto](https://drive.google.com/file/d/1cPIdgJ3cjaMISyUUVTGE4fLcYVCuFp-D/view?usp=sharing)
+[Vídeo do projeto](https://drive.google.com/file/d/1cPIdgJ3cjaMISyUUVTGE4fLcYVCuFp-D/view?usp=sharing)
 
 ---
 
