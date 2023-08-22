@@ -1,79 +1,61 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Teste técnico
 
-# Getting Started
+Este repositório contém o projeto desenvolvido como parte do processo seletivo para a empresa BRQ Digital Solutions. Aqui, você verá algumas das minhas habilidades em desenvolvimento de aplicativos móveis, utilizando como base o React Native e JavaScript.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Descrição do Projeto
 
-## Step 1: Start the Metro Server
+O objetivo deste projeto é apresentar uma aplicação simples com basicamente 3 telas:
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+1. **Login:** Esta tela simula o processo de login, buscando dados mockados para autenticação.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+2. **Home:** A tela de início realiza um GET para a API https://api.themoviedb.org/3/movie/popular para exibir uma lista de filmes.
 
-```bash
-# using npm
-npm start
+3. **Detalhes do Filme:** A tela de detalhes do filme faz um GET para a API https://api.themoviedb.org/3/movie/{movie_id}, usando o ID do filme obtido anteriormente, para fornecer informações mais detalhadas.
 
-# OR using Yarn
-yarn start
-```
+Observação Importante: Todas as requisições feitas à API devem ser autenticadas. O token de autenticação está armazenado em um arquivo não versionado chamado .env e é acessado por meio da biblioteca `react-native-dotenv`. Certifique-se de gerar e configurar corretamente o token bearer fornecido para garantir o acesso adequado aos recursos da API.
 
-## Step 2: Start your Application
+## Principais Bibliotecas Utilizadas
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+Algumas das principais libs utilizadas no projeto:
 
-### For Android
+- **React Native:**
 
-```bash
-# using npm
-npm run android
+- **TypeScript:**
 
-# OR using Yarn
-yarn android
-```
+- **Redux:**
 
-### For iOS
+- **Redux Saga:**
 
-```bash
-# using npm
-npm run ios
+- **react-native-splash-screen:**
 
-# OR using Yarn
-yarn ios
-```
+- **Jest:**
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+- **Babel:**
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+## Possíveis Melhorias
 
-## Step 3: Modifying your App
+Há diversas melhorias que podem ser implementadas para aprimorar este projeto, seguem algumas:
 
-Now that you have successfully run the app, let's modify it.
+- **Sistema de Favoritos:** É possível criar um sistema de favoritos, utilizando o endpoint https://api.themoviedb.org/3/account/{account_id}/favorite para permitir que os usuários marquem seus filmes favoritos.
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+- **Sistema de Login Real:** Atualmente, o projeto utiliza dados mockados para simular o processo de login. Implementar um sistema de login real, possivelmente integrado com uma API de autenticação.
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+## Como Iniciar
 
-## Congratulations! :tada:
+Para executar este projeto localmente, siga estas etapas:
 
-You've successfully run and modified your React Native App. :partying_face:
+1. Certifique-se de ter o ambiente React Native configurado em sua máquina.
 
-### Now what?
+2. Clone este repositório e navegue até o diretório do projeto.
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+3. Execute `npm install` para instalar as dependências do projeto.
 
-# Troubleshooting
+4. Utilize `npm start` para iniciar o aplicativo.
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+Fique à vontade para explorar o código e os componentes, e não hesite em fornecer feedback ou sugestões de melhorias.
 
-# Learn More
+---
 
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+**Andre Matos**  
+andre_matos13@hotmail.com  
+[https://andrematos.dev.br](https://andrematos.dev.br)
